@@ -54,7 +54,7 @@ def task1_sklearn_linear_regression(X, y):
     return None, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
-def task1_statsmodel_linear_regression(y, X):
+def task1_statsmodels_linear_regression(y, X):
     """Given the asked for features X (with a dummy intercept constant
     already added), and the target regression values y, fit a
     statsmodel OLS (ordinary least squares) regression model to the
@@ -230,7 +230,7 @@ def task2_sklearn_logistic_regression(X, y):
     # make sure you return your model and the expected test values in the return statement
     return None, 0.0, None, 0.0
 
-def task2_statsmodel_logistic_regression(y, X):
+def task2_statsmodels_logistic_regression(y, X):
     """Given the asked for features X (with a dummy intercept constant
     already added), and the target regression values y, fit a
     statsmodel Logit  (logitsic regression) regression model to the
