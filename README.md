@@ -35,7 +35,7 @@ I am using this material as a reference when developing the work and questions f
 
 # Objectives
 
-**After this assignmeent you will**:
+**After this assignment you will**:
 
 - Have experience using the basics of the `scikit-learn` library and API.
 - Be introduces to the `statsmodel` library for doing statistical analysis.
