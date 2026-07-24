@@ -3,10 +3,10 @@ import pytest
 import sklearn
 import numpy as np
 import pandas as pd
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task2_impute_missing_data
-from assg_tasks import task2_label_encoding
-from assg_tasks import task2_sklearn_logistic_regression
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task2_impute_missing_data
+from assg.tasks import task2_label_encoding
+from assg.tasks import task2_sklearn_logistic_regression
 
 @pytest.fixture
 def fit():

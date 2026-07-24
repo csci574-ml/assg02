@@ -1,8 +1,8 @@
 import pathlib
 import pytest
 import pandas as pd
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task2_impute_missing_data
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task2_impute_missing_data
 
 @pytest.fixture
 def impute():

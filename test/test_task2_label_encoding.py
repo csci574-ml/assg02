@@ -2,8 +2,8 @@ import pathlib
 import pytest
 import numpy as np
 import pandas as pd
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task2_label_encoding
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task2_label_encoding
 
 @pytest.fixture
 def encode():

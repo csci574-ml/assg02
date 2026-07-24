@@ -2,8 +2,8 @@ import pathlib
 import pytest
 import statsmodels
 import numpy as np
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task1_statsmodels_linear_regression
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task1_statsmodels_linear_regression
 
 
 @pytest.fixture

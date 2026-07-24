@@ -2,9 +2,9 @@
 .ipynb_checkpoints/*
 **/.ipynb_checkpoints/*
 *.vagrant/*
-_trial_marker/*
-_trial_temp/*
 .virtual_documents/*
+_trial_temp/*
+**/*.egg-info/*
 
 *.acn
 *.swp

@@ -27,7 +27,7 @@ I am using this material as a reference when developing the work and questions f
 - Avoid using for-loops and while loops, unless you are explicitly told to do so.
 - Do not modify the `### TESTED FUNCTION [function name]` cells.  These cells call unit tests on the functions
   you are asked to write for these assignments.
-- All functions you need to write should be placed into the `src/assginment_tasks.py` file.  Functions that are
+- All functions you need to write should be placed into the `src/assg/tasks.py` file.  Functions that are
   tested and graded are imported from there into this notebook.  You have again been given the function
   declartion and appropriate Docstrings for the functions in this assignment.
 - After coding your function, run the `### TESTED FUNCTION` cell to determine if it is passing the assignment

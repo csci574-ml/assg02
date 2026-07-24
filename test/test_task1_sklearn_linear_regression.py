@@ -2,8 +2,8 @@ import pytest
 import sklearn
 import numpy as np
 import pathlib
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task1_sklearn_linear_regression
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task1_sklearn_linear_regression
 
 @pytest.fixture
 def fit():

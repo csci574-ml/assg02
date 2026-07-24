@@ -61,7 +61,13 @@ $(assg_doc) : README.md
 ##
 .PHONY : unit-tests
 unit-tests :
-	python -m twisted.trial test_assg_tasks
+	python3 -m pytest -v -s test/test_task1_sklearn_linear_regression.py 
+	python3 -m pytest -v -s test/test_task1_statsmodels_linear_regression.py 
+	python3 -m pytest -v -s test/test_impute_missing_data.py 
+	python3 -m pytest -v -s test/test_label_encoding.py 
+	python3 -m pytest -v -s test/test_sklearn_logistic_regression.py 
+	python3 -m pytest -v -s test/test_statsmodels_logistic_regression.py 
+	
 
 ## clean        : Remove auto-generated files for a completely
 ##                clean rebuild

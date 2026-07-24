@@ -2,10 +2,10 @@ import pathlib
 import pytest
 import statsmodels
 import pandas as pd
-from assg_utils import PROJECT_ROOT
-from assg_tasks import task2_impute_missing_data
-from assg_tasks import task2_label_encoding
-from assg_tasks import task2_statsmodels_logistic_regression
+from assg.utils import PROJECT_ROOT
+from assg.tasks import task2_impute_missing_data
+from assg.tasks import task2_label_encoding
+from assg.tasks import task2_statsmodels_logistic_regression
 
 @pytest.fixture
 def fit():
